@@ -1,0 +1,60 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<web-app>
+ <display-name>project1-ers-new</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+   <servlet-name>UserServlet</servlet-name>
+    <display-name>UserServlet</display-name>
+    <description></description>
+    <servlet-class>com.revature.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+   <servlet-name>Servlet</servlet-name>
+    <display-name>Servlet</display-name>
+    <description></description>
+    <servlet-class>com.revature.servlet.Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/Servlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>Userservlet1</servlet-name>
+  	<display-name>Userservlet1</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.servlet.Userservlet1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Servlet1</servlet-name>
+  	<display-name>Servlet1</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.servlet.Servlet1</servlet-class>
+  </servlet>
+ 
+
+  <servlet-mapping>
+  	<servlet-name>Userservlet1</servlet-name>
+  	<url-pattern>/Userservlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Servlet1</servlet-name>
+  	<url-pattern>/Servlet1</url-pattern>
+  </servlet-mapping>
+</web-app>
+
